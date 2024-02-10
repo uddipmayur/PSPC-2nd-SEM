@@ -6,18 +6,14 @@ int oddeven(int n)
     {
         return 100;
     }
+    else if(n % 2 == 0)
+    {
+        return 101;
+    }
     else
     {
-        if(n % 2 == 0)
-        {
-            return 101;
-        }
-        else
-        {
-            return 102;
-        }
+        return 102;
     }
-    return 0;
 }
 
 int main()
