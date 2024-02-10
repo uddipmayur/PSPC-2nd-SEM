@@ -9,18 +9,15 @@ int main()
 
     if(num == 0)
     {
-        printf("You entered 0.\n");
+        printf("The number is 0\n");
+    }
+    else if(num % 2 == 0)
+    {
+        printf("The number is even.\n");
     }
     else
     {
-        if(num % 2 == 0)
-        {
-            printf("The number is even.\n");
-        }
-        else
-        {
-            printf("The number is odd.\n");
-        }
+        printf("The number is odd.\n");
     }
 
     return 0;
