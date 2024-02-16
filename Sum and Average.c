@@ -1,3 +1,6 @@
+//Write a C program to take 3 integers as user input and
+//
+
 #include <stdio.h>
 
 int main()
