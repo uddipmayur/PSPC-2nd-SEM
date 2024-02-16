@@ -1,3 +1,6 @@
+//Write a C program to take user input and find out whether the number is odd or even.
+
+
 #include <stdio.h>
 
 int main()
