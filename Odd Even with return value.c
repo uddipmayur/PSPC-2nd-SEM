@@ -1,3 +1,7 @@
+// Write AC program to find out whether and number is odd or even with zero checking using functions.
+// Using return value.
+
+
 #include <stdio.h>
 
 int oddeven(int n)
