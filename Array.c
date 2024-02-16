@@ -1,3 +1,5 @@
+//Declare an Array with length taken from user and display the elements in the Array then calculate the sum and average of the elemsnts and display them.
+
 #include <stdio.h>
 
 
