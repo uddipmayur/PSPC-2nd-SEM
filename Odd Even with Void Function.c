@@ -1,3 +1,7 @@
+// Write a C programme to find out whether a number is odd or even with 0 checking using functions.
+// Void function.
+
+
 #include <stdio.h>
 
 void oddeven(int n)
