@@ -35,7 +35,6 @@ int main()
     }
     else if(result == 101)
     {
-
         printf("The number is even.\n");
     }
     else
