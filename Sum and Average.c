@@ -1,6 +1,6 @@
 //Write a C program to take 3 integers as user input and
 //i) Find the sum of all 3 integers and display the result
-//i) Find the average of all 3 integers and display them result
+//i) Find the average of all 3 integers and display the result
 
 #include <stdio.h>
 
