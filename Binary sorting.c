@@ -1,4 +1,4 @@
-//binary search
+//binary search with iterative method
 
 #include<stdio.h>
 
