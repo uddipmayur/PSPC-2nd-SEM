@@ -1,4 +1,4 @@
-// Write a C program to find out whether and number is odd or even with zero checking using functions.
+// Write a C program to find out whether a number is odd or even with zero checking using functions.
 // Using return value.
 
 
