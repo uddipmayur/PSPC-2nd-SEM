@@ -31,7 +31,7 @@ int main()
 
     if(result == 100)
     {
-        printf("You the 0.\n");
+        printf("The number 0.\n");
     }
     else if(result == 101)
     {
