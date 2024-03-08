@@ -18,8 +18,6 @@ void oddeven(int n)
     {
         printf("The number is odd.\n");
     }
-
-    return 0;
 }
 
 int main()
