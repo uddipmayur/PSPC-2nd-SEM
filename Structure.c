@@ -12,6 +12,7 @@ int main()
 {
     struct students S[2];
 
+    //Taking student details
 
     printf("Enter student details below.\n");
 
@@ -30,6 +31,8 @@ int main()
     }
 
 
+    //displaying
+
     for (int i = 0; i < 2; i++)
     {
         printf("Name of the student: %s \n", S[i].name);
@@ -39,6 +42,8 @@ int main()
 
     printf("\n");
 
+
+    //target search
 
     int search, index, found = 0;
 
@@ -55,6 +60,8 @@ int main()
         
     }
     
+
+    //search result
 
     if (found == 1)
     {
