@@ -1,4 +1,4 @@
-//Binary sorting by recursion
+//Binary sorting by search
 
 
 #include<stdio.h>
