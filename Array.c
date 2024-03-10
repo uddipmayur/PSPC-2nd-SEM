@@ -3,8 +3,9 @@
 #include <stdio.h>
 
 
-int main()
-{
+int main(){
+
+
     int n;
     float sum = 0, avg = 0;
 
@@ -22,6 +23,10 @@ int main()
     printf("The elements of the array are: ");
     for(int i = 0; i < n; i++)
     {
+
+
+
+        
         printf("%d, ", arr[i]);
         sum = sum + arr[i];
     }
