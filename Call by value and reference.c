@@ -25,7 +25,7 @@ int main()
 
     printf("Number before call by value: %d", num);
     call_by_value(num);
-    printf("\nNumber after call by value: %d", num);
+    printf("\nNumber after call by value: %d\n", num);
 
 
     printf("\nNumber before call by value: %d", num);
