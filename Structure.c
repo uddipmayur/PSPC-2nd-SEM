@@ -10,13 +10,13 @@ struct students
 
 int main()
 {
-    struct students S[2];
+    struct students S[5];
 
     //Taking student details
 
     printf("Enter student details below.\n");
 
-    for (int i = 0; i < 2; i++)
+    for (int i = 0; i < 5; i++)
     {
         printf("Enter the name of the Student: ");
         scanf("%s", &S[i].name);
@@ -33,7 +33,7 @@ int main()
 
     //displaying
 
-    for (int i = 0; i < 2; i++)
+    for (int i = 0; i < 5; i++)
     {
         printf("Name of the student: %s \n", S[i].name);
         printf("Roll of the student: %d \n", S[i].roll);
@@ -50,7 +50,7 @@ int main()
     printf("Enter a roll to get student details: ");
     scanf("%d", &search);
     
-    for (int i = 0; i < 2; i++)
+    for (int i = 0; i < 5; i++)
     {
         if (S[i].roll == search)
         {
