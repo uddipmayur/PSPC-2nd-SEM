@@ -1,4 +1,4 @@
-//Write a C program and implement linear sorting algorithm
+//Write a C program and implement a linear sorting algorithm
 
 #include<stdio.h>
 
