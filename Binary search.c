@@ -12,14 +12,14 @@ int binary_search(int arr[], int low, int high, int target)
         {
             return mid;
         }
-        if(arr[mid] < target)
+        else if(arr[mid] < target)
         {
             low = mid + 1;
         }
-    else
-    {
-        high = mid - 1;
-    }
+        else
+        {
+            high = mid - 1;
+        }
     }
     return -1;  
 }
