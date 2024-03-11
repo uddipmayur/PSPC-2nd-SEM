@@ -1,11 +1,10 @@
-//Write a C program to display  the Fibonacci Series upto nth term
+// Write a C program to display  the Fibonacci Series upto nth term
 
 #include <stdio.h>
 
-
 int fibo(int n)
 {
-    if(n <= 1)
+    if (n <= 1)
     {
         return 1;
     }
@@ -15,7 +14,6 @@ int fibo(int n)
     }
 }
 
-
 int main()
 {
     int num, result = 0;
@@ -23,16 +21,18 @@ int main()
     printf("Enter the number of terms in the Fibonacci series: ");
     scanf("%d", &num);
 
-    if(num < 0)
+    if (num < 0)
     {
         printf("\nEnter a positive integer.");
     }
     else
     {
-        result = fibo(num);
+        printf("The Fibonacci series upto %dth term is: ", num);
+        for (int i = 0; i < num; i++)
+        {
+            printf("%d ", fibo(i));
+        }
     }
-
-    printf("The Fibonacci series upto %dth term is: %d", num, result);
 
     return 0;
 }

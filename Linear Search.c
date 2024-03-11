@@ -1,7 +1,6 @@
-//Write a C program and implement a linear sorting algorithm
+// Write a C program and implement a linear sorting algorithm
 
-#include<stdio.h>
-
+#include <stdio.h>
 
 int main()
 {
@@ -11,10 +10,10 @@ int main()
 
     int arr[N];
 
-    //Assuming elements are not repeated
+    // Assuming elements are not repeated
 
     printf("Enter the elements of the Array: ");
-    for (int  i = 0; i < N; i++)
+    for (int i = 0; i < N; i++)
     {
         scanf("%d", &arr[i]);
     }
@@ -28,7 +27,7 @@ int main()
     {
         if (target == arr[i])
         {
-            index = N;
+            index = i;
         }
     }
 
